@@ -21,3 +21,4 @@ And this are my changes in the CSS:
 ![image](https://github.com/rickenofficial/pokemon/assets/70503436/919b24c7-6da2-43ba-9554-8a15e30bf9bb)
 
 
+The code used in this assignment was provided by our tutors for our practice and does not belong to me.
