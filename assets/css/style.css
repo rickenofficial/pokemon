@@ -1,0 +1,205 @@
+/* global styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* this is to set the background color at the body */
+body {
+    background-color: #d9dcd6;
+}
+/* setting padding at the header, font family and the backups, the background color and, the color of the font  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* using the inspector we can see this is for the H1 on the header with the word HORI setting the font-size to 48px*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* style for the part SEO at the header on the title  */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* styles for the links setting font-family, size, backups for the fontfamily  */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* styles for the list of links */
+.header div ul {
+    list-style-type: none;
+}
+/* style for each element on the link list */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* adding color for the links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* this style is for paragraphs setting the size to 16px */
+p {
+    font-size: 16px;
+}
+/* style for the big image at the top of the webpage  */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* this move elements to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* this move elements to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* this make the space between lead generation aplying the width and set the margin left 20px so that way its no all the way to the left  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* this set our font famaly and backups at the aside on the class benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* styles for each benefit */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+/* this set properties for title at the section /lead generation */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* this set properties for title at the section /brand awareness */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* this set properties for title at the section /cost management */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* this is the style for the image lead  */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* this is the style for the image brand */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* this is the style for the image cost */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* styles for the sections in general are using the same properties so if we need change just one we can keep using the rest */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* i comment this part because is more easy make a comment only in one part of the css and was the same styles for each section */
+
+/* .online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+/* stye for the images on the section */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* stye for the images on the section */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* stye for the images on the section */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* styles title for section */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* styles title for section */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* styles title for section */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* this is the style for the footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* style for the title on the footer */
+.footer h2 {
+    font-size: 20px;
+}
